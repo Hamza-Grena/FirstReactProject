@@ -1,0 +1,346 @@
+{
+  "catalog1": [
+    {
+      "id": 1,
+      "name": "lenovo ideapad 3",
+      "description": "pc-portable-gamer-lenovo-ideapad-3-15ach6-amd-ryzen-5-rtx-3050",
+      "image": "./pic_project/1.jpg",
+      "price": "2650",
+      "qteStock": 10
+    },
+    {
+      "id": 2,
+      "name": "HP Victus 16",
+      "description": "PC Portable Gamer HP Victus 16-e1011nk AMD RYZEN 5 8Go RTX 3050",
+      "image": "./pic_project/2.jpg",
+      "price": "590",
+      "qteStock": "10"
+    },
+    {
+      "id": 3,
+      "name": "PC Portable MSI",
+      "description": "PC Portable Gamer MSI GF63 Thin i5 11è Gén 8Go GTX 1650",
+      "image": "./pic_project/3.jpg",
+      "price": "999",
+      "qtestock": 10
+    },
+    {
+      "id": 4,
+      "name": "PC Portable DELL",
+      "description": "PC Portable Gamer DELL 5520 G15 i7 12è Gén 16Go RTX 3050",
+      "image": "./pic_project/4.jpg",
+      "price": "750",
+      "qtestock": 10
+    },
+    {
+      "id": 5,
+      "name": "PC Portable ASUS",
+      "description": "PC Portable Gamer ASUS TUF Gaming A17 AMD RYZEN 5 16Go GTX 1650",
+      "image": "./pic_project/5.jpg",
+      "price": "640",
+      "qtestock": 10
+    },
+    {
+      "id": 6,
+      "name": "PC Portable MSI Thin",
+      "description": "PC Portable Gamer MSI Thin GF63 12U i5 12è Gén 24Go RTX 2050 ",
+      "image": "./pic_project/6.jpg",
+      "price": "900",
+      "qtestock": 10
+    },
+    {
+      "id": 7,
+      "name": "PC Portable ASUS 15",
+      "description": "PC Portable Gamer ASUS F15 TUF506HC i5 11è Gén 24Go RTX 3050",
+      "image": "./pic_project/7.jpg",
+      "price": "1800",
+      "qtestock": 10
+    },
+    {
+      "id": 8,
+      "name": "PC GIGABYTE G5",
+      "description": "PC Portable Gamer GIGABYTE G5 GE i5 12è Gén 8Go RTX 3050",
+      "image": "./pic_project/8.jpg",
+      "price": "3000",
+      "qtestock": 10
+    },
+    {
+      "id": 10,
+      "name": "PC portable HP 15",
+      "description": "PC portable HP 15-DW3085NK i3 11è Gé 8Go SSD 256Go - Gris",
+      "image": "./pic_project/10.jpg",
+      "price": "1499",
+      "qtestock": 10
+    },
+    {
+      "id": 11,
+      "name": "PC portable Lenovo ThinkBook 15",
+      "description": " PC portable Lenovo ThinkBook 15 G2 ITL i3 11è 256Go- Gris",
+      "image": "./pic_project/11.jpg",
+      "price": "2199",
+      "qtestock": 10
+    },
+    {
+      "id": 12,
+      "name": "PC portable Lenovo IdeaPad 3 i5",
+      "description": "PC portable Lenovo IdeaPad 3 i5 11è Gé 8Go MX350 512Go- Gris",
+      "image": "./pic_project/12.jpg",
+      "price": "1799",
+      "qtestock": 10
+    },
+    {
+      "id": 13,
+      "name": "PC portable Asus X5",
+      "description": "PC portable Asus X543MA Celeron N4020 8Go 1To - GTX 1650 gris",
+      "image": "./pic_project/13.jpg",
+      "price": "2499",
+      "qtestock": 10
+    },
+    {
+      "id": 14,
+      "name": "Pc Portable Zenbook 14",
+      "description": "Pc Portable ASUS Zenbook 14 AMD RYZEN 7 8Go 512Go SSD - Gris ",
+      "image": "./pic_project/14.jpg",
+      "price": "2699",
+      "qtestock": 10
+    },
+    {
+      "id": 15,
+      "name": "PC APPLE  Pro M2",
+      "description": "APPLE MacBook Pro M2 (2022) 8Go 256Go SSD - GTX 1650 Silver",
+      "image": "./pic_project/15.jpg",
+      "price": "2399",
+      "qtestock": 10
+    },
+    {
+      "id": 16,
+      "name": "PC portable ASUS  15",
+      "description": "PC portable ASUS Vivobook 15 X1502ZA i3 12è Gé  256Go- Bleu",
+      "image": "./pic_project/16.jpg",
+      "price": "1499",
+      "qtestock": 10
+    },
+    {
+      "id": 17,
+      "name": "PC dell vostro",
+      "description": "pc-portable-dell-vostro-3510-i3-11e-gen-4go-256go-ssd-noir",
+      "image": "./pic_project/17.jpg",
+      "price": "1750",
+      "qtestock": 10
+    },
+    {
+      "id": 18,
+      "name": "hp pavillon",
+      "description": "Laptop HP Pavilion g6-1252sr -i7-3e-gen-8go-699go-hdd-noir",
+      "image": "./pic_project/18.jpg",
+      "price": "1099"
+    },
+    {
+      "name": "MSI",
+      "description": "CATANA GF63 RAM 8GO SSD 512GO carte graphique GTX 3060 TI",
+      "image": "./pic_project/3.jpg",
+      "price": "3200",
+      "id": 19,
+      "qtestock": 10
+    },
+    {
+      "name": "lenovo",
+      "description": "pc tres puissant et propre pour l'utilisation",
+      "image": "./pic_project/19.jpg",
+      "price": "1900",
+      "id": 20,
+      "qtestock": 10
+    },
+    {
+      "name": "Pc Portable GIGABITE",
+      "description": "PC Portable Gamer GIGABYTE G5 GE i5 12è Gén 24Go RTX 3050",
+      "image": "./pic_project/20.jpg",
+      "price": "3600",
+      "id": 21,
+      "qtestock": 10
+    }
+  ],
+  "catalog2": [
+    {
+      "id": 1,
+      "name": "Ecran  REDRAGON 23.8",
+      "description": "Ecran Gaming REDRAGON 23.8 Mirror Basic - Taille de l'écran 23.8 FULL HD",
+      "image": "./acc_project/1.jpg",
+      "price": "1080",
+      "qtestock": 10
+    },
+    {
+      "id": 2,
+      "name": "Ecran  REDRAGON Azur",
+      "description": "Ecran Gaming REDRAGON Azur - Taille de l'écran 23.8 FULL HD IPS, 165 Hz",
+      "image": "./acc_project/2.jpg",
+      "price": "9500",
+      "qtestock": 10
+    },
+    {
+      "id": 3,
+      "name": "Ecran  REDRAGON Azur 5",
+      "description": "Ecran Gaming REDRAGON Azur FULL HD IPS, Résolution: 1920 x 1080p",
+      "image": "./acc_project/3.jpg",
+      "price": "780",
+      "qtestock": 10
+    },
+    {
+      "id": 4,
+      "name": "Écran Gaming GIGABYTE",
+      "description": "Écran Gaming GIGABYTE - Taille de l'écran: 24 Full HD, 165 Hz Résolution: 1920 x 1080 ",
+      "image": "./acc_project/4.jpg",
+      "price": "1140",
+      "qtestock": 10
+    },
+    {
+      "id": 5,
+      "name": "Écran ASUS TUF ",
+      "description": "Souris Gamer NITROX -Éclairage LED RVB -Effets d'eclairage Réglable en 7 Couleurs",
+      "image": "./acc_project/5.jpg",
+      "price": "899",
+      "qtestock": 10
+    },
+    {
+      "id": 6,
+      "name": "Souris Gamer NITROX",
+      "description": "Souris Gamer NITROX -Éclairage LED RVB -Effets d'eclairage Réglable en 7 Couleurs",
+      "image": "./acc_project/6.jpg",
+      "price": "70",
+      "qtestock": 10
+    },
+    {
+      "id": 7,
+      "name": "Souris Gamer CROWN",
+      "description": "Souris Gamer CROWN - Connectivité: Filaire - Interface: USB - Lumière colorée ",
+      "image": "./acc_project/7.jpg",
+      "price": "65",
+      "qtestock": 10
+    },
+    {
+      "id": 8,
+      "name": "Souris WHITE SHARK",
+      "description": "Souris Gamer WHITE SHARK GM-5009 Gareth - Technologie de Connectivité: Filaire ",
+      "image": "./acc_project/8.jpg",
+      "price": "75",
+      "qtestock": 10
+    },
+    {
+      "id": 9,
+      "name": "Clavier Gamer ADVANCE",
+      "description": "Clavier Gamer ADVANCE GTA 250 500 Gareth - Technologie de connectivité: Filaire",
+      "image": "./acc_project/9.jpg",
+      "price": "150",
+      "qtestock": 10
+    },
+    {
+      "id": 10,
+      "name": "Clavier WHITE SHARK 2",
+      "description": "Clavier WHITE SHARK VIKING -2 - META - Connectivité: Filaire - Interface avec l'ordinateur: USB 2.0",
+      "image": "./acc_project/10.jpg",
+      "price": "140",
+      "qtestock": 10
+    },
+    {
+      "id": 11,
+      "name": "Micro Casque Gamer",
+      "description": " Micro Casque Gamer HAVIT H2013D Interface: USB, Jack 3.5 mm - Diamètre de Casque: 50 mm",
+      "image": "./acc_project/11.jpg",
+      "price": "120",
+      "qtestock": 10
+    },
+    {
+      "id": 12,
+      "name": "Micro Casque VARR",
+      "description": "Micro Casque Gamer VARR -  Rétroéclairage RVB - Bandeau réglable Jack 3.5 mm Filaire USB ",
+      "image": "./acc_project/12.jpg",
+      "price": "100",
+      "qtestock": 10
+    },
+    {
+      "id": 13,
+      "name": "Casque SPIRIT OF GAMER",
+      "description": "Micro Casque Gamer SPIRIT OF GAMER Pro H8 LED RGB - Connectivité: Filaire - Interface: USB",
+      "image": "./acc_project/13.jpg",
+      "price": "99",
+      "qtestock": 10
+    },
+    {
+      "id": 14,
+      "name": "Chaise Gaming Race",
+      "description": "Chaise Gaming Race - Matière en simili cuir avec accoudoirs rembourrés excellent confort  ",
+      "image": "./acc_project/14.jpg",
+      "price": "789",
+      "qtestock": 10
+    },
+    {
+      "id": 15,
+      "name": "Chaise Pilote Gaming",
+      "description": "Chaise Pilote Gaming - Matière en cuir avec accoudoirs rembourrés excellent confort USB RGB",
+      "image": "./acc_project/15.jpg",
+      "price": "650",
+      "qtestock": 10
+    },
+    {
+      "id": 16,
+      "name": "Haut Parleur SHARK",
+      "description": "Haut Parleur Gamer WHITE SHARK Flow RGB - Connectivité: Filaire - Interface: USB- Éclairage: RVB",
+      "image": "./acc_project/16.jpg",
+      "price": "350",
+      "qtestock": 10
+    },
+    {
+      "id": 17,
+      "name": "Haut-parleur Mood",
+      "description": "Haut-parleur Gamer WHITE SHARK Mood - Connectivité: Filaire - Interface: USB ",
+      "image": "./acc_project/17.jpg",
+      "price": "270",
+      "qtestock": 10
+    },
+    {
+      "id": 18,
+      "name": "Tapis de chaise Pharaoh",
+      "description": "Tapis de chaise Gamer White Shark Pharaoh - Diamètre: 120 cm - Fond antidérapant",
+      "image": "./acc_project/18.jpg",
+      "price": "50",
+      "qtestock": 10
+    },
+    {
+      "name": "Ecran Gaming COOLER",
+      "description": "Ecran Gaming COOLER MASTER GA241 23.8'' Full HD 100Hz",
+      "image": "./acc_project/19.jpg",
+      "price": "390",
+      "id": 19
+    },
+    {
+      "name": "Ecran Gaming REDRAGON",
+      "description": "Ecran Gaming REDRAGON Mirror 27\" Full HD IPS 165 Hz",
+      "image": "./acc_project/20.jpg",
+      "price": "450",
+      "id": 20
+    }
+  ],
+  "feedback": [
+    {
+      "id": 1,
+      "name": "Test",
+      "Lastname": "lastTest",
+      "Email": "xxx@gmail.com",
+      "opinion": "Good Web Site "
+    },
+    {
+      "name": "hamza",
+      "Lastname": "grena",
+      "Email": "hamzagr707@gmail.com",
+      "opinion": "test test",
+      "id": 2
+    },
+    {
+      "name": "Mark",
+      "Lastname": "lefevre",
+      "Email": "mark1@gmail.com",
+      "opinion": "nice one !",
+      "id": 3
+    }
+  ]
+}
