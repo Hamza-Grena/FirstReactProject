@@ -2,6 +2,8 @@ import Form from 'react-bootstrap/Form';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import { useState } from 'react';
+import Footer from './Footer';
+
 
     
 function Feed() {
@@ -63,6 +65,7 @@ function Feed() {
                 <button  type="submit" className="btn btn-outline-primary" onClick={(event)=>handelsumbit(event)}>Send !</button>
 
             </Form>
+            <Footer/>
         </div>
        
     );

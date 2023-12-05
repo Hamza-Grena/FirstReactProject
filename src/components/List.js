@@ -2,6 +2,7 @@ import axios from 'axios';
 import ElementAc from './ElementAc';
 import { useEffect } from 'react';
 import { useState } from 'react';
+import Load from './Spinner';
 const format={
     fontSize: "3em",
     fontWeight: "normal",
@@ -29,6 +30,12 @@ function ListAc(){
            })
          .catch((error)=>console.error())   
     }, []);
+    if(Accessoire ==="")
+    {
+        return <Load/>
+    }
+    else
+    {
     return (
         <div style={div_style}>
             <h2 style={format}>Liste des Accessoires</h2>
@@ -36,6 +43,7 @@ function ListAc(){
         </div>
         
      );
+}
 }
 
 export default ListAc;

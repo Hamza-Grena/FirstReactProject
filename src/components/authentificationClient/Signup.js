@@ -40,61 +40,20 @@ function Signup() {
     };
 
     return (
-        <Container component="main" maxWidth="xs">
+      <Container component="main" maxWidth="xs">
     
-        <Box
-          sx={{
-            marginTop: 20,
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
-            border:"solid 2px gray",
-            padding:"40px",
-            width: "400px",
-          }}
-        >
-                    <Typography component="h1" variant="h5">
-           Sign Up
-          </Typography>
+        <Box sx={{marginTop: 20, display: 'flex', flexDirection: 'column', alignItems: 'center', border:"solid 2px gray", padding:"40px",width: "400px"}}>
+                    <Typography component="h1" variant="h5">Sign Up</Typography>
           <Box component="form" onSubmit={sub} noValidate sx={{ mt: 1 }}>
           
-            <TextField
-              margin="normal"
-              required
-              fullWidth
-              id="email"
-              label={<EmailIcon />}
-              name="email"
-              autoComplete="email"
-              autoFocus
-              onChange={({ target }) =>     
-              SetEmail(target.value)}
-            />
-             <TextField
-              margin="normal"
-              required
-              fullWidth
-              name="pwd"
-              label={ <PasswordIcon />}
-              type="password"
-              id="pwd"
-              autoComplete="current-password"
-              onChange={({ target}) => 
-              setPwd(target.value)}
-            /> 
+            <TextField margin="normal" required fullWidth id="email" label={<EmailIcon />} name="email" autoComplete="email" autoFocus onChange={({ target }) =>SetEmail(target.value)}/>
+             <TextField margin="normal" required fullWidth name="pwd" label={ <PasswordIcon />} type="password" id="pwd" autoComplete="current-password" onChange={({ target}) => setPwd(target.value)} /> 
               
-              <Button
-            type="submit"
-            fullWidth
-            color="secondary"
-            variant="contained"
-            >
-            Sign In
-          </Button>
+              <Button type="submit" fullWidth color="secondary" variant="contained"> Sign In </Button>
         
-       </Box>
+          </Box>
         </Box>
-        </Container>
+      </Container>
     );
 }
 export default Signup;

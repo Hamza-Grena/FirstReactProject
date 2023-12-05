@@ -13,8 +13,8 @@
       "name": "HP Victus 16",
       "description": "PC Portable Gamer HP Victus 16-e1011nk AMD RYZEN 5 8Go RTX 3050",
       "image": "./pic_project/2.jpg",
-      "price": "590",
-      "qteStock": "10"
+      "price": "600",
+      "qteStock": 10
     },
     {
       "id": 3,
@@ -174,7 +174,7 @@
       "name": "Ecran  REDRAGON Azur",
       "description": "Ecran Gaming REDRAGON Azur - Taille de l'écran 23.8 FULL HD IPS, 165 Hz",
       "image": "./acc_project/2.jpg",
-      "price": "9500",
+      "price": "500",
       "qtestock": 10
     },
     {
@@ -341,6 +341,90 @@
       "Email": "mark1@gmail.com",
       "opinion": "nice one !",
       "id": 3
+    },
+    {
+      "name": "Francisa",
+      "Lastname": "Romane",
+      "Email": "Romane14@gmail.com",
+      "opinion": "Bonne Service !",
+      "id": 4
+    },
+    {
+      "name": "Bruel",
+      "Lastname": "Ilona",
+      "Email": "Ilona_bruel@gmail.com",
+      "opinion": "Merci pour le Service ",
+      "id": 5
+    },
+    {
+      "name": "Fabrice",
+      "Lastname": "Barbet",
+      "Email": "fabrice@gmail.com",
+      "opinion": "super !\n",
+      "id": 6
+    },
+    {
+      "name": "Victoria",
+      "Lastname": "ceece",
+      "Email": "ceece.victoria@gmail.com",
+      "opinion": "bonne service !",
+      "id": 7
+    },
+    {
+      "name": "Bayrem",
+      "Lastname": "sassi",
+      "Email": "bayrem_sassi@gmail.com",
+      "opinion": "c'est un bonne site web ..bravo !\n",
+      "id": 8
+    },
+    {
+      "name": "Nadhir",
+      "Lastname": "post",
+      "Email": "Nadhri_post@gmail.com",
+      "opinion": "bonne Travail !\n",
+      "id": 9
+    },
+    {
+      "name": "oussama",
+      "Lastname": "hajSalem",
+      "Email": "HajSalem.oussama@gmail.com",
+      "opinion": "bravo !",
+      "id": 10
+    },
+    {
+      "name": "Maram",
+      "Lastname": "Sassi",
+      "Email": "Maram.Sassi@gmail.com",
+      "opinion": "merci pour le service ...tres bien",
+      "id": 11
+    },
+    {
+      "name": "Kamel",
+      "Lastname": "Grena",
+      "Email": "KamelGrena@gmail.com",
+      "opinion": "Bonne contuniation !",
+      "id": 12
+    },
+    {
+      "name": "Abdallah",
+      "Lastname": "Fatma",
+      "Email": "Fatma.Abdallah@gmail.com",
+      "opinion": "Tres bonne service !\n",
+      "id": 13
+    },
+    {
+      "name": "Rihab",
+      "Lastname": "Grena",
+      "Email": "Rihab.grina@gmail.com",
+      "opinion": "Merci pour le service \n",
+      "id": 14
+    },
+    {
+      "name": "Florance",
+      "Lastname": "france",
+      "Email": "florance.france@gmail.com",
+      "opinion": "bien fait comme un projet !",
+      "id": 15
     }
   ]
 }

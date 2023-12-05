@@ -24,31 +24,14 @@ function Phead() {
 
   const isLoggedIn = localStorage.getItem('email') !== 'hamzagr707@gmail.com' && localStorage.getItem('password') !== '101101';
 
-  let pcStoreLink = (
-    <Link className="navbar-brand" exact to="/articles">Pc Store</Link>
-  );
-  let accessoireLink = (
-    <Link className="navbar-brand" exact to="/accessoire">Accessoire</Link>
-  );
-  let addPCLink = (
-    <Link className="navbar-brand" exact to="/form">Add Pc</Link>
-  );
-  let addAccessoireLink = (
-    <Link className="navbar-brand" exact to="/formAcc">Add Accessoire</Link>
-  );
-  let inspectFeedbackLink = (
-    <Link className="navbar-brand" exact to="/Inspect">Inspect Feedback</Link>
-  );
-  let FeedbackLink = (
-    <Link className="navbar-brand" exact to="/Feedback">Feedback</Link>
-  );
-  let ShoopingLink=(
-    <Link className="navbar-brand" exact to="/x">Shooping</Link>
-
-  );
-  let HomeLink=(
-    <Link className="navbar-brand" exact to="/Home">Home</Link>
-);
+  let pcStoreLink = (<Link className="navbar-brand" exact to="/articles">Pc Store</Link>);
+  let accessoireLink = ( <Link className="navbar-brand" exact to="/accessoire">Accessoire</Link>);
+  let addPCLink = ( <Link className="navbar-brand" exact to="/form">Add Pc</Link>);
+  let addAccessoireLink = ( <Link className="navbar-brand" exact to="/formAcc">Add Accessoire</Link>);
+  let inspectFeedbackLink = (<Link className="navbar-brand" exact to="/Inspect">Inspect Feedback</Link>);
+  let FeedbackLink = (<Link className="navbar-brand" exact to="/Feedback">Feedback</Link>);
+  let ShoopingLink=(<Link className="navbar-brand" exact to="/x">Shooping</Link>);
+  let HomeLink=(<Link className="navbar-brand" exact to="/Home">Home</Link>);
 
   if (isLoggedIn) {
     pcStoreLink = null;
@@ -56,16 +39,15 @@ function Phead() {
     addPCLink = null;
     addAccessoireLink = null;
     inspectFeedbackLink = null;
-    
-  }
+}
   
-  if(!isLoggedIn)
-  {
+if(!isLoggedIn)
+{
     FeedbackLink=null;
     ShoopingLink=null;
     HomeLink=null;
 
-  }
+}
   return (
     <div>
       <Navbar bg="dark" data-bs-theme="dark">

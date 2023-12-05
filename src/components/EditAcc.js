@@ -46,6 +46,7 @@ function EditAcc() {
   .then(res => {  
   console.log(res);
   navigate("/accessoire")
+  alert("Modification bien effectuer !")
     })   
   .catch(error=>{
       console.log(error)

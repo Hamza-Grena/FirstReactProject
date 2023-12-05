@@ -7,25 +7,22 @@ import Plus from '@mui/icons-material/AddAlarm';
 import Minus from '@mui/icons-material/RemoveCircle';
 import Delete from '@mui/icons-material/Delete';
 import StripeCheckout from 'react-stripe-checkout';
+import Footer from '../Footer';
 const Cart = () => {
   const { cartDetails, removeItem , clearCart, totalPrice, cartCount,incrementItem,decrementItem } = useShoppingCart();
   const navigate = useNavigate();
+  const [payment, setpayment] = React.useState(false);
 
-  const commander = () => {
+  const commander = async () => {
     
     setpayment(true);
   };
-  const [payment, setpayment] = React.useState(false);
+  
   const onToken=(token) =>{
     console.log(token);
     clearCart();
     navigate('/x');
   }
-  /*
-  const commander = async() =>
-  {
-    setpayment(true);
-  }*/
 
   const more = () => {
     navigate('/x');
@@ -40,9 +37,11 @@ const Cart = () => {
   };
 
   if (cartCount === 0) 
-    return <center><img src ="/cartEmpty.jpg" alt={"The cart is empty"}  style={{marginTop:'3cm'}}/></center>
-
+    return(
+    <center><img src ="/cartEmpty.jpg" alt={"The cart is empty"}  style={{marginTop:'3cm'}}/></center>
+    )
   return (
+    <>
     <div>
       {payment ? <StripeCheckout token={onToken} stripeKey='pk_test_51OEpnBGheYcThEw9N8nnodfRRQQVGDqukObspUI5QyfaL5SJxIbZqdgViKwfKAfr3oIivzwBNLTgZ3J6c4ay47Ab00Wn1gJQLX' amount={totalPrice*100} currency='USD'/>:null}
       <Grid container spacing={2} columns={15} marginTop={10} marginLeft={10}>
@@ -111,6 +110,8 @@ const Cart = () => {
         </Grid>
       </Grid>
     </div>
+    <Footer/>
+    </>
   );
 };
 

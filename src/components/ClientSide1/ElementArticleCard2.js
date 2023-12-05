@@ -27,14 +27,7 @@ const ElementsArticleCard= (props)=> {
     console.log('Item added to cart:', target);
 
   
-  };
-  
-  
-  
-    
-
-
- 
+  }; 
     return ( 
      <>
 

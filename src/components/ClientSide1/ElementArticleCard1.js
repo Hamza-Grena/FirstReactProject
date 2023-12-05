@@ -23,7 +23,7 @@ const ElementsArticleCard1= (props)=> {
     title : product.name,
     image : product.image,
     price : product.price,
-    qtestock : product.qtestock -1,
+    qtestock : product.qteStock,
     quantity : 1
     };
     addItem(target);
@@ -35,7 +35,7 @@ const ElementsArticleCard1= (props)=> {
  
     return ( 
      <>
-     <AppBar position="static" color='default' style={{height:"1.5cm", width:"3cm",marginLeft:"-1.5cm"}}>
+      <AppBar position="static" color='default' style={{height:"1.5cm", width:"3cm",marginLeft:"-1.5cm"}}>
             <Toolbar >
                 <Button color="inherit" style={{height:"1cm"}} ><Link to="/cart">{ cartCount}<ShoppingCartIcon fontSize="large" /></Link></Button>
              </Toolbar>
@@ -55,8 +55,7 @@ const ElementsArticleCard1= (props)=> {
 </div>
 <div className="text-center">
 <button style={style}
-  disabled={product.qtestock <= 1}
-  
+  disabled={ product.qteStock <= 1}
   onClick={() => addToCart(product)}>
   Add to Cart
 </button>

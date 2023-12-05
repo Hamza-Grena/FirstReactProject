@@ -41,10 +41,7 @@ function App() {
               <Route path='/Home' element={<Home/>}/>      
         </Routes>
       
-  </Router>
-
-     
-       
+      </Router>  
     </div>
     </CartProvider>
   );

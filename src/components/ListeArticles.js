@@ -1,6 +1,7 @@
 import axios from 'axios';
 import {useEffect, useState} from 'react';
 import ElementsArticle from './ElementsArticle';
+import Load from './Spinner';
 const format={
     fontSize: "3em",
     fontWeight: "normal",
@@ -28,8 +29,16 @@ function ListeArticles() {
             //console.log(response.data);
            })
          .catch((error)=>console.error())   
-    }, []);
+    },[]);
+    if(pc ==="")
+    {
+        return <Load/>
+
+    }
+    else
+    {
     return (
+        <>
         <div style={div_style}>
             <div >
                 <h2 style={format}>
@@ -37,10 +46,12 @@ function ListeArticles() {
                 </h2>
             </div>
             <ElementsArticle articles={pc}/>
+            
         </div>
-
+        </>
         
     );
+}
 }
 
 export default ListeArticles;

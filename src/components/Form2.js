@@ -1,5 +1,5 @@
 
-import { useState } from "react";
+import {useState } from "react";
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 const format={
@@ -19,8 +19,6 @@ function Formulaire2()
      const[image,setimage]=useState("");
     const [price,setPrice]=useState("");
     const [qtestock,setqte]=useState(0);
-
-
     const handelsumbit=(event)=>{
         event.preventDefault();
         const catalog2={
